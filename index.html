@@ -1,172 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>swiggy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>swiggy</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
-                rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="nav__brand__item">
+            <div class="nav__logo">
+              <img
+                class="logo"
+                src="siwggy__image\swiggy-logo.png"
+                alt="brand__logo"
+              />
+            </div>
+            <ul class="nav__button">
+              <li>LOG IN</li>
+              <li>SIGN UP</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="hero__section">
+        <div class="hero__container">
+          <div class="hero__image__container">
+            <img
+              class="hero__image"
+              src="siwggy__image\hero.jpg"
+              alt="hero image"
+            />
+          </div>
+          <div class="description">
+            <h1 class="hero__text">Delivering Happiness at Your Doorstep</h1>
+            <button class="primary__button">ORDER NOW</button>
+          </div>
+        </div>
+      </section>
+      <section class="vedio__section">
+        <div class="vedio__container">
+          <div class="swiggy__vedio">
+            <iframe
+              class="iframe"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ask7kTDRsT0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <h2 class="vedio__text">Let deliciousness twirl</h2>
+            <h2 class="vedio__text">in your mouth</h2>
+          </div>
+        </div>
+      </section>
+      <section class="menu__section">
+        <div class="food__menu__container"></div>
+        <h1 class="menu__container__title">Explore our menu</h1>
+        <div class="food__menu__cad__list">
+          <div class="menu__card menu__card__move__up">
+            <img
+              class="menu__card__image"
+              src="siwggy__image\burger.jpg"
+              alt="burger image"
+            />
 
-<body>
-        <header>
-                <nav>
-                        <div class="navbar">
-                                <div class="nav__brand__item">
-                                        <div class="nav__logo">
-                                                <img class="logo" src="siwggy__image\swiggy-logo.png" alt="brand__logo">
-                                        </div>
-                                        <ul class="nav__button">
-                                                <li>LOG IN</li>
-                                                <li>SIGN UP</li>
-                                        </ul>
+            <div class="menu__card__image__detail">
+              <h4 class="menu__card__title">burger</h4>
+              <p>
+                Jimis Burger,Floada,snachos
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div
+            style="margin-top: -1rem; margin-bottom: 1rem"
+            class="menu__card"
+          >
+            <img
+              class="menu__card__image"
+              src="siwggy__image\pizza.jpg"
+              alt="shawarma_image"
+            />
 
-                                </div>
-                        </div>
-                </nav>
-        </header>
-        <main class="container">
-                <section class="hero__section">
-                        <div class="hero__container">
-                                <div class="hero__image__container">
-                                        <img class="hero__image" src="siwggy__image\hero.jpg" alt="hero image">
-                                </div>
-                                <div class="description">
-                                        <h1 class="hero__text">Delivering Happiness at Your Doorstep</h1>
-                                        <button class="primary__button">ORDER NOW</button>
-                                </div>
-                        </div>
-                </section>
-                <section class="vedio__section">
-                        <div class="vedio__container">
-                                <div class="swiggy__vedio">
-                                        <iframe class="iframe" width="560" height="315"
-                                                src="https://www.youtube.com/embed/ask7kTDRsT0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen></iframe>
+            <div class="menu__card__image__detail">
+              <h4 class="menu__card__title">PIZZA</h4>
+              <p>
+                Pizza Hut,Floada,snachos
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img
+              class="menu__card__image"
+              src="siwggy__image\iceCream.jpg"
+              alt="ice_cream"
+            />
 
-                                </div>
-                                <div>
-                                        <h2 class="vedio__text">Let deliciousness twirl in your mouth</h2>
-                                </div>
+            <div class="menu__card__image__detail">
+              <h4 class="menu__card__title">Ice Cream</h4>
+              <p>
+                Ibacoo,BlackForest,snachos
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="view__more">
+        <center><button class="view__more__btn">view more</button></center>
+      </div>
+      <section class="restaurant__container">
+        <div class="restraunts__description">
+          <h1 class="res__text">Order your foods at your</h1>
+          <h1 class="res__text">favourite restaurants</h1>
 
-                        </div>
-
-                </section>
-                <section class="menu__section">
-                        <div class="food__menu__container"></div>
-                        <h1 class="menu__container__title">Explore our menu</h1>
-                        <div class="food__menu__cad__list">
-                                <div class="menu__card menu__card__move__up">
-                                        <img class="menu__card__image" src="siwggy__image\burger.jpg"
-                                                alt="burger image">
-
-
-                                        <div class="menu__card__image__detail">
-                                                <h4 class="menu__card__title">burger</h4>
-                                                <p>
-                                                        Jimis Burger,Floada,snachos
-                                                        <span style="color:red;">+3</span>
-
-                                                </p>
-
-                                        </div>
-                                </div>
-                                <div style="margin-top: -1rem; margin-bottom: 1rem;" class="menu__card ">
-                                        <img class="menu__card__image" src="siwggy__image\pizza.jpg"
-                                                alt="shawarma_image">
-
-
-                                        <div class="menu__card__image__detail">
-                                                <h4 class="menu__card__title">PIZZA</h4>
-                                                <p>
-                                                        Pizza Hut,Floada,snachos
-                                                        <span style="color:red;">+3</span>
-
-                                                </p>
-
-                                        </div>
-                                </div>
-                                <div class="menu__card">
-                                        <img class="menu__card__image" src="siwggy__image\iceCream.jpg" alt="ice_cream">
-
-                                        <div class="menu__card__image__detail">
-                                                <h4 class="menu__card__title">Ice Cream</h4>
-                                                <p>
-                                                        Ibacoo,BlackForest,snachos
-                                                        <span style="color:red;">+3</span>
-
-                                                </p>
-
-                                        </div>
-                                </div>
-
-
-                        </div>
-                </section>
-                <div class="view__more">
-                        <center><button class="view__more__btn">view more</button></center>
-                </div>
-                <section class="restaurant__container">
-                        <div class="restraunts__description">
-                                <h1 class="res__text">Order your foods at your favourite restaurants</h1>
-                                <input id="search__box"type="search" placeholder="search your restaurant">
-                                <div class="search">
-                                <button class="secondary__btn">search</button>
-                                </div>
-                        </div>
-                        
-                        <div class="restaurant__image__container">
-                             
-                        <div class="restaurant__row1">
-                                <img src="siwggy__image\restaurant1.jpg" alt="res1" class="restaurant1">
-                                <img src="siwggy__image\restaurant2.jpg" alt="res2" class="restaurant2">
-
-                        </div>
-                        <div class="restaurant__row2">
-
-                                <img src="siwggy__image\restaurant3.jpg" alt="res3" class="restaurant3">
-                                <img src="siwggy__image\restaurant4.jpg" alt="res4" class="restaurant4">
-
-                        </div>
-                </div>
-                </section>
-                <section class="update__section">
-                        <h1 class="update__text">stay update</h1>
-                        <div class="update__content">
-                               
-                                <input id ="mail"type="email" placeholder="enter your email">
-                                <button class="update__btn">GET UPDATE</button>
-
-                        </div>
-
-                </section>
-        </main>
-        <footer class="footering">
-                <div class="footering__text">
-                       <h1 class="logo__text"> SWIGGY</h1> 
-                </div>
-                <div class="list">
-                <ul  class=" footering__list ">
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Terms and Condition</a></li>
-                        <li><a href="#">Patnership</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Cantact us</a></li>
-
-                </ul>
+          <div class="search">
+            <input
+              class="input__box"
+              type="search"
+              placeholder="search your restaurant"
+            />
+            <button class="secondary__btn">search</button>
+          </div>
         </div>
 
-               
-
-        </footer>
-
-</body>
-
+        <div class="restaurant__image__container">
+          <div class="restaurant__row1">
+            <img
+              src="siwggy__image\restaurant1.jpg"
+              alt="res1"
+              class="restaurant1"
+            />
+            <img
+              src="siwggy__image\restaurant2.jpg"
+              alt="res2"
+              class="restaurant2"
+            />
+          </div>
+          <div class="restaurant__row2">
+            <img
+              src="siwggy__image\restaurant3.jpg"
+              alt="res3"
+              class="restaurant3"
+            />
+            <img
+              src="siwggy__image\restaurant4.jpg"
+              alt="res4"
+              class="restaurant4"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="update__section">
+        <center><h1 class="update__text">stay update</h1></center>
+        <div class="update__content">
+          <input
+            class="input__box"
+            type="email"
+            placeholder="enter your email"
+          />
+          <button class="update__btn">GET UPDATE</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footering">
+      <div class="footering__text">
+        <h1 class="logo__text">SWIGGY</h1>
+      </div>
+      <div class="list">
+        <ul class="footering__list">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Terms and Condition</a></li>
+          <li><a href="#">Patnership</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Cantact us</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
